@@ -1,0 +1,303 @@
+
+
+
+//! //////////////////////////////////
+//Me 
+.header {
+   margin-top: 20rem;
+   display: flex;
+   height: 80vh;
+   
+
+
+
+
+   &__img {
+      flex: 0 0 33%;
+      background-image: url("/img/hat\ but\ enter.png");
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 50rem;
+      border-radius: 500px;
+      justify-content: center;
+      align-self: center;
+      
+   }
+
+   &__text {
+      display: flex;
+      color: #fff;
+      margin-left: auto;
+      align-self: center;
+      margin-right: 20rem;
+      height: 100%;
+      align-items: center;
+      // h1 {
+         
+      // }
+
+
+      h2 {
+         font-size: 2.8rem;
+         
+      }
+
+      &--evan {
+         border-bottom: 3px solid  var(--color-orange-1);
+      }
+   }
+}
+
+
+//! /////////////////////////////////////////////
+// Skills
+.info {
+   margin-top: 5rem;
+   min-height: 30rem;
+   margin-bottom: 20rem;
+   color: var(--color-grey-dark-1);
+   display: flex;
+
+   &__right {
+      display: flex;
+      flex: 0 0 33%;
+      order: 2;
+      background-image: url(/img/IMG_2263.jpeg);
+      background-size: cover;
+      background-position: center;
+   }
+
+
+
+   &__left {
+      flex: 0 0 60%;
+      background-color: var(--color-grey-light-2);
+      padding-left: 5rem;
+      padding-top: 2rem;
+
+      &--about {
+         p {
+            font-size: 1.9rem;
+         }
+      }
+
+      h2 {
+         font-size: 2.5rem;  
+      }
+      
+      &--skill {
+         display: flex;
+         //border: 1px solid rgb(187, 255, 0);
+         font-size: 1.6rem;
+         margin-top: 5rem;
+         justify-content: space-between;
+      
+      &--h {
+         width: auto;
+         border-bottom: 3px solid  var(--color-orange-1);
+      }
+      &--c {
+         border-bottom: 3px solid  var(--color-orange-1);
+      } 
+      &--s {
+         border-bottom: 3px solid  var(--color-orange-1);
+      }
+      &--j {
+         border-bottom: 3px solid  var(--color-orange-1);
+         margin-right: 10rem;
+      }
+   }
+   }
+   
+   
+}
+
+.proj--head {
+   display: flex;
+   align-items: flex-start;
+   color: #fff;
+   font-size: 3rem;
+   margin-left: 1.5rem;
+}
+
+
+.projects {
+   min-height: 40vh;
+   color: #fff;
+   display: flex;
+   margin-bottom: 10rem;
+
+   &__left {
+      flex: 0 0 45%;
+      background-image: url(/img/dotspeacefulspotssc.PNG);
+      background-position: center;
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      &--2 {
+         margin-right: 12rem;
+      }
+   }
+
+   &__right {
+
+      &--2 {
+         margin-left: 2rem;
+         
+      }
+      &--header {
+         font-size: 2rem;
+
+         a {
+            color: #fff;
+            border-bottom: 3px solid  var(--color-orange-1);
+            text-decoration: none;
+         }
+      }
+      &--p {
+         font-size: 1.8rem;
+         margin-right: 25rem;
+         
+         &--2 {
+            width: 90%;
+         }
+      }
+      &--lang {
+         font-size: 2rem;
+         margin-top: 15rem;
+      }
+      &--ul {
+         display: flex;
+         
+         font-size: 1.5rem;
+         justify-content: space-between;
+         padding-left: 0;
+         list-style: none;
+         margin-right: 25rem;
+         
+         &--li {
+            border-bottom: 3px solid  var(--color-orange-1);
+
+         }   
+      }
+
+
+   }
+}
+
+@media (max-width: 87.5em) {  //1400px 
+   html {
+      font-size: 50%;
+   }
+}
+
+
+@media (max-width: 68.75em) { //1100 px
+   html {
+      font-size: 40%;
+   }
+
+   .projects__right {
+      margin-left: 2rem;
+      margin-top: 1rem;
+      
+      a {
+         font-size: 3.4rem;
+      }
+
+      &--p {
+         font-size: 2.4rem;
+         margin-right: 10rem;
+      }
+   }
+}
+
+@media (max-width: 59.375em) { // 950 px
+   .header {
+      &__img {
+         margin-left: 6rem;
+      }
+      &__text {
+         h2 {
+            font-size: 2.5rem;
+         }
+      }
+   }
+   .header__img {
+      border-radius: 100%;
+   }
+   .projects {
+      margin-bottom: 2rem;
+   }
+   .projects__right {
+      margin-top: 6rem;
+
+      &--p {
+         margin-right: 2rem;
+      }
+      &--lang {
+         margin-top: 3rem;
+         font-size: 3rem;
+      }
+
+      &--ul {
+         font-size: 2rem;
+      }
+   }
+}
+
+@media (max-width: 53.125em){ //850px
+   .header {
+
+      &__text {
+         margin: 0 auto;
+      }
+   }
+}
+
+@media (max-width: 46.875em) {
+   .header {
+      margin: 0 auto;
+      border: 1px solid red;
+      padding: 1rem;
+      flex-direction: column;
+      width: 90%;
+      height: 100vh;
+      margin-top: 10rem;
+      
+
+      &__img {
+         width: 35%;
+      }
+
+      &__text {
+         width: 100%;
+         justify-content: center;
+         margin-top: -20rem;
+      }
+   }
+
+   .info {
+      width: 95%;
+      margin: 0 auto;
+
+      &__right {
+         width: 100%;
+         flex: 0 0 30%;
+      }
+
+      &__left {
+         flex: 1 0 60%;
+      }
+   }
+}
+
+@media (max-width: 34.375em) { //550 px
+   .header {
+
+      &__img {
+         width: 50%;
+      }
+   }
+}

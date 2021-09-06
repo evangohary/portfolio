@@ -1,0 +1,332 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  max-width: 150rem;
+  margin: 0 auto;
+  background-color: var(--color-gray-darker);
+}
+
+.header {
+  margin-top: 20rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80vh;
+}
+
+.header__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+  background-image: url("/img/hat but enter.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50rem;
+  border-radius: 500px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.header__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  margin-left: auto;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-right: 20rem;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__text h2 {
+  font-size: 2.8rem;
+}
+
+.header__text--evan {
+  border-bottom: 3px solid var(--color-orange-1);
+}
+
+.info {
+  margin-top: 5rem;
+  min-height: 30rem;
+  margin-bottom: 20rem;
+  color: var(--color-grey-dark-1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 33%;
+          flex: 0 0 33%;
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+  background-image: url(/img/IMG_2263.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.info__left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 60%;
+          flex: 0 0 60%;
+  background-color: var(--color-grey-light-2);
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+
+.info__left--about p {
+  font-size: 1.9rem;
+}
+
+.info__left h2 {
+  font-size: 2.5rem;
+}
+
+.info__left--skill {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.6rem;
+  margin-top: 5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.info__left--skill--h {
+  width: auto;
+  border-bottom: 3px solid var(--color-orange-1);
+}
+
+.info__left--skill--c {
+  border-bottom: 3px solid var(--color-orange-1);
+}
+
+.info__left--skill--s {
+  border-bottom: 3px solid var(--color-orange-1);
+}
+
+.info__left--skill--j {
+  border-bottom: 3px solid var(--color-orange-1);
+  margin-right: 10rem;
+}
+
+.proj--head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  color: #fff;
+  font-size: 3rem;
+  margin-left: 1.5rem;
+}
+
+.projects {
+  min-height: 40vh;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10rem;
+}
+
+.projects__left {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 45%;
+          flex: 0 0 45%;
+  background-image: url(/img/dotspeacefulspotssc.PNG);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.projects__left--2 {
+  margin-right: 12rem;
+}
+
+.projects__right--2 {
+  margin-left: 2rem;
+}
+
+.projects__right--header {
+  font-size: 2rem;
+}
+
+.projects__right--header a {
+  color: #fff;
+  border-bottom: 3px solid var(--color-orange-1);
+  text-decoration: none;
+}
+
+.projects__right--p {
+  font-size: 1.8rem;
+  margin-right: 25rem;
+}
+
+.projects__right--p--2 {
+  width: 90%;
+}
+
+.projects__right--lang {
+  font-size: 2rem;
+  margin-top: 15rem;
+}
+
+.projects__right--ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 0;
+  list-style: none;
+  margin-right: 25rem;
+}
+
+.projects__right--ul--li {
+  border-bottom: 3px solid var(--color-orange-1);
+}
+
+@media (max-width: 87.5em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 68.75em) {
+  html {
+    font-size: 40%;
+  }
+  .projects__right {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .projects__right a {
+    font-size: 3.4rem;
+  }
+  .projects__right--p {
+    font-size: 2.4rem;
+    margin-right: 10rem;
+  }
+}
+
+@media (max-width: 59.375em) {
+  .header__img {
+    margin-left: 6rem;
+  }
+  .header__text h2 {
+    font-size: 2.5rem;
+  }
+  .header__img {
+    border-radius: 100%;
+  }
+  .projects {
+    margin-bottom: 2rem;
+  }
+  .projects__right {
+    margin-top: 6rem;
+  }
+  .projects__right--p {
+    margin-right: 2rem;
+  }
+  .projects__right--lang {
+    margin-top: 3rem;
+    font-size: 3rem;
+  }
+  .projects__right--ul {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 53.125em) {
+  .header__text {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 46.875em) {
+  .header {
+    margin: 0 auto;
+    border: 1px solid red;
+    padding: 1rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 90%;
+    height: 100vh;
+    margin-top: 10rem;
+  }
+  .header__img {
+    width: 35%;
+  }
+  .header__text {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: -20rem;
+  }
+  .info {
+    width: 95%;
+    margin: 0 auto;
+  }
+  .info__right {
+    width: 100%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+  }
+  .info__left {
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 60%;
+            flex: 1 0 60%;
+  }
+}
+
+@media (max-width: 34.375em) {
+  .header__img {
+    width: 50%;
+  }
+}
+
+:root {
+  --color-gray-darker: #222;
+  --color-grey-dark-1: #333;
+  --color-grey-dark-2: #777;
+  --color-grey-dark-3: #999;
+  --color-grey-light-1: #faf9f9;
+  --color-grey-light-2: #f4f2f2;
+  --color-grey-light-3: #f0eeee;
+  --color-grey-light-4: #ccc;
+  --color-orange-1:#FF7F50;
+}
+
+.flex-dir-1 {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+/*# sourceMappingURL=style.css.map */
